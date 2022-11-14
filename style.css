@@ -19,5 +19,107 @@ body {
     background-color: rgb(255,121,119);
     background-image: url('./assets/background.png');
     width: 80%;
-    height: 70%;
+    height: 75%;
+    margin: auto;
+    justify-content: center;
+}
+
+.container_left {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    
+}
+
+h1{
+    width: 500px;
+    color: white;
+    font-size: 50px;
+}
+
+.left_paragraph_one {
+    color: whitesmoke;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.left_paragraph_two {
+    color: whitesmoke;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.container_right {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    font-weight: normal;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px hsla(249, 10%, 26%, 0.281);
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    padding: 18px 0 18px 30px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+button {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 16px;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 600;
+    border: 2px solid hsl(154, 57%, 44%);
+    padding: 18px 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(154, 67%, 46%);
+}
+
+.right_paragraph{
+    font-size: 13px;
+    text-align: center;
+    color: rgb(117,117,139);
+    margin-top: 15px;
+}
+
+.terms_and_services {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+.terms_and_services:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
