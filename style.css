@@ -62,7 +62,7 @@ h3 {
     box-shadow: 0 10px rgba(0, 0, 0, 0.144);
 }
 
-input {
+.fields {
     padding: 20px;
     margin-bottom: 18px;
     font-weight: 700;
@@ -70,7 +70,7 @@ input {
     border: 1px solid rgb(197, 197, 197);
 }
 
-input:focus {
+.fields:focus {
     outline: 2px solid rgb(167, 167, 167);
 }
 
